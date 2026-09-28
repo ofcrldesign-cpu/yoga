@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clara Mendes • Yoga, Yogaterapia & Terapias Integrativas</title>
+  <meta name="description"
+    content="Reconecte corpo, mente e respiração. Aulas de Hatha & Vinyasa Flow, Yogaterapia individual e Sound Healing com a instrutora Clara Mendes. Atendimentos presenciais e online.">
+  <meta name="keywords"
+    content="Yoga, Yogaterapia, Vinyasa Flow, Hatha Yoga, Sound Healing, Meditação, Bem-Estar, Terapias Integrativas">
+
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:title" content="Clara Mendes • Yoga & Terapias Integrativas">
+  <meta property="og:description"
+    content="Aulas particulares, em grupo e tratamentos integrativos para restaurar sua vitalidade e equilíbrio interior.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-yoga.jpg">
+
+  <!-- Folha de Estilos Externa (CSS Puro) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- =========================================================================
+       1. CABEÇALHO & NAVEGAÇÃO RESPONSIVA PURA CSS
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo-link" aria-label="Página inicial Clara Mendes Yoga">
+        <span class="logo-main">Clara Mendes</span>
+        <span class="logo-sub">Yoga &amp; Bem-Estar</span>
+      </a>
+
+      <!-- Checkbox invisível para alternar menu mobile no CSS puro -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir ou fechar menu de navegação">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-menu" aria-label="Navegação principal">
+        <ul class="nav-links">
+          <li><a href="#inicio" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+          <li><a href="#tratamentos" class="nav-link">Tratamentos</a></li>
+          <li><a href="#beneficios" class="nav-link">Benefícios</a></li>
+          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#faq" class="nav-link">Dúvidas</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Clara!%20Gostaria%20de%20agendar%20uma%20conversa%20sobre%20as%20pr%C3%A1ticas%20de%20Yoga."
+            target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Agendar Sessão
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         2. HERO SECTION (IMPACTO & CONVERSÃO)
+         ======================================================================= -->
+    <section id="inicio" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Vagas Abertas para Atendimentos Presenciais e Online</span>
+          </div>
+
+          <h1 class="hero-title">
+            Reconecte seu corpo, acalme sua mente e desperte sua <span>vitalidade natural</span>.
+          </h1>
+
+          <p class="hero-description">
+            Práticas acolhedoras e terapias personalizadas para quem busca alívio do estresse diário, flexibilidade sem
+            dor e uma relação mais gentil e consciente com o próprio corpo.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Clara!%20Vim%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20aulas%20e%20tratamentos."
+              target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <svg class="btn-icon" viewBox="0 0 24 24">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.27-2.42 5.83a8.18 8.18 0 0 1-5.82 2.41c-1.47 0-2.91-.39-4.18-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.39c0-4.54 3.7-8.24 8.22-8.24zm4.5 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.29z" />
+              </svg>
+              <span>Fale Comigo no WhatsApp</span>
+            </a>
+            <a href="#tratamentos" class="btn btn-outline">
+              Explorar Tratamentos
+            </a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="proof-item">
+              <span class="proof-number">+8 anos</span>
+              <span class="proof-label">de prática &amp; ensino</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <span class="proof-number">+600</span>
+              <span class="proof-label">alunos transformados</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <span class="proof-number">5.0 ★</span>
+              <span class="proof-label">avaliação unânime</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image-wrapper">
+            <img src="assets/images/hero-yoga.jpg"
+              alt="Instrutora Clara Mendes em postura de equilíbrio e meditação no estúdio de yoga" width="800"
+              height="960">
+          </div>
+
+          <div class="hero-float-card">
+            <div class="float-card-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              </svg>
+            </div>
+            <div class="float-card-text">
+              <span class="float-card-title">Ambiente Seguro &amp; Acolhedor</span>
+              <span class="float-card-sub">Para iniciantes e praticantes avançados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. SEÇÃO SOBRE A INSTRUTORA (APRESENTAÇÃO)
+         ======================================================================= -->
+    <section id="sobre" class="section section-alt">
+      <div class="container about-grid">
+        <div class="about-media">
+          <div class="about-image-card">
+            <img src="assets/images/instrutora.jpg"
+              alt="Foto da instrutora Clara Mendes sorrindo com as mãos no coração" width="600" height="800">
+          </div>
+          <div class="about-badge">
+            <span class="about-badge-number">RYT-500</span>
+            <span class="about-badge-text">Yoga Alliance</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">Sobre Mim</span>
+          <h2 class="about-title">Olá, eu sou Clara Mendes</h2>
+
+          <p class="about-bio">
+            Acredito que o Yoga não é sobre conseguir tocar os pés, mas sobre o que você aprende no caminho até lá.
+            Minha jornada com as práticas integrativas começou há quase uma década, quando busquei no tapetinho uma
+            resposta para o estresse crônico e as dores posturais causadas pelo ritmo acelerado da vida moderna.
+          </p>
+
+          <p class="about-bio">
+            Hoje, como instrutora certificada internacionalmente e terapeuta holística, guio pessoas a reencontrarem a
+            harmonia entre corpo físico, respiração e mente. Meu método combina a tradição milenar do Hatha Yoga à
+            fluidez do Vinyasa, com um olhar terapêutico cuidadoso que respeita as particularidades anatômicas e o
+            momento de cada aluno.
+          </p>
+
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="pillar-title">Acolhimento Real</h4>
+                <p class="pillar-desc">Sem comparações ou exigências estéticas irreais.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="pillar-title">Biotipo &amp; Segurança</h4>
+                <p class="pillar-desc">Ajustes posturais personalizados para evitar lesões.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="pillar-title">Pranayamas Vivos</h4>
+                <p class="pillar-desc">Uso da respiração consciente para regular a ansiedade.</p>
+              </div>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="pillar-title">Visão Holística</h4>
+                <p class="pillar-desc">Integração entre postura, energia, sono e descanso.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-credentials">
+            <span class="cred-pill">✓ Formação Índia &amp; Brasil</span>
+            <span class="cred-pill">✓ Especialista em Yogaterapia</span>
+            <span class="cred-pill">✓ Terapeuta de Som (Sound Healing)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. TRATAMENTOS E SERVIÇOS QUE ELA FAZ
+         ======================================================================= -->
+    <section id="tratamentos" class="section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">O que eu faço</span>
+          <h2 class="section-title">Tratamentos &amp; Práticas Personalizadas</h2>
+          <p class="section-desc">
+            Cada corpo carrega uma história única. Conheça as modalidades terapêuticas desenhadas para atender às suas
+            necessidades físicas, energéticas e emocionais.
+          </p>
+        </header>
+
+        <div class="treatments-grid">
+          <!-- Tratamento 1: Hatha & Vinyasa Flow -->
+          <article class="treatment-card">
+            <div class="treatment-thumb">
+              <img src="assets/images/vinyasa-yoga.jpg" alt="Prática fluida de Hatha e Vinyasa Flow" width="600"
+                height="400">
+              <span class="treatment-badge-format">Presencial ou Online</span>
+              <span class="treatment-badge-time">60 min</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Hatha &amp; Vinyasa Flow</h3>
+              <p class="treatment-desc">
+                Uma prática harmoniosa que une a precisão e permanência do Hatha tradicional com a fluidez respiratória
+                do Vinyasa. Excelente para desenvolver tônus muscular, mobilidade articular, resistência e presença
+                mental.
+              </p>
+              <div class="treatment-benefits">
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Desenvolvimento de equilíbrio e flexibilidade</span>
+                </div>
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Fortalecimento de core e estabilidade postural</span>
+                </div>
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Sincronização entre respiração e movimento</span>
+                </div>
+              </div>
+              <div class="treatment-footer">
+                <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Clara!%20Gostaria%20de%20agendar%20uma%20aula%20de%20Hatha%20e%20Vinyasa%20Flow."
+                  target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Agendar Aula Experimental
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tratamento 2: Yogaterapia Individual -->
+          <article class="treatment-card">
+            <div class="treatment-thumb">
+              <img src="assets/images/yogaterapia.jpg" alt="Sessão individual de Yogaterapia e alinhamento restaurativo"
+                width="600" height="400">
+              <span class="treatment-badge-format">Atendimento Individual</span>
+              <span class="treatment-badge-time">75 min</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Yogaterapia &amp; Alinhamento</h3>
+              <p class="treatment-desc">
+                Tratamento clínico e terapêutico com foco específico em reabilitação postural, alívio de dores na coluna
+                (lombalgia, cervicalgia, ciático), compressão nervosa e restauração de limitações motoras com suportes
+                suaves (bolsters e blocos).
+              </p>
+              <div class="treatment-benefits">
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Avaliação biomecânica e postural completa</span>
+                </div>
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Alívio imediato e duradouro de tensões crônicas</span>
+                </div>
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Plano de exercícios restaurativos para o dia a dia</span>
+                </div>
+              </div>
+              <div class="treatment-footer">
+                <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Clara!%20Tenho%20interesse%20em%20uma%20avalia%C3%A7%C3%A3o%20de%20Yogaterapia%20e%20Alinhamento%20Postural."
+                  target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  Agendar Avaliação Terapêutica
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tratamento 3: Sound Healing & Meditação -->
+          <article class="treatment-card">
+            <div class="treatment-thumb">
+              <img src="assets/images/sound-healing.jpg"
+                alt="Imersão sonora com tigelas tibetanas e cristais de quartzo" width="600" height="400">
+              <span class="treatment-badge-format">Individual ou Casal</span>
+              <span class="treatment-badge-time">60 min</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Sound Healing &amp; Meditação</h3>
+              <p class="treatment-desc">
+                Banho sonoro imersivo e restaurativo utilizando tigelas tibetanas forjadas à mão, tigelas de cristal de
+                quartzo e sinos ancestrais. As frequências vibracionais acalmam as ondas cerebrais, induzindo a um
+                relaxamento profundo e desintoxicação emocional.
+              </p>
+              <div class="treatment-benefits">
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Desaceleração profunda de pensamentos agitados</span>
+                </div>
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Harmonização dos chakras e centros sutis</span>
+                </div>
+                <div class="treatment-benefit-item">
+                  <svg viewBox="0 0 20 20">
+                    <path
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+                  </svg>
+                  <span>Melhora profunda da qualidade do sono reparador</span>
+                </div>
+              </div>
+              <div class="treatment-footer">
+                <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Clara!%20Gostaria%20de%20vivenciar%20uma%20sess%C3%A3o%20de%20Sound%20Healing%20e%20Medita%C3%A7%C3%A3o."
+                  target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  Reservar Banho Sonoro
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. BENEFÍCIOS DO YOGA E PRÁTICAS INTEGRATIVAS
+         ======================================================================= -->
+    <section id="beneficios" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Por que Praticar</span>
+          <h2 class="section-title">Benefícios Comprovados para Sua Vida</h2>
+          <p class="section-desc">
+            A união entre movimento consciente, respiração e terapias sonoras transforma a sua rotina de dentro para
+            fora.
+          </p>
+        </header>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              </svg>
+            </div>
+            <h3>Alívio da Ansiedade</h3>
+            <p>Estimula o nervo vago e o sistema nervoso parassimpático, reduzindo drasticamente os níveis do hormônio
+              cortisol no sangue.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+              </svg>
+            </div>
+            <h3>Coluna Livre de Dores</h3>
+            <p>Fortalece a musculatura profunda que sustenta a coluna vertebral, descomprimindo vértebras e aliviando a
+              tensão nos ombros.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z" />
+              </svg>
+            </div>
+            <h3>Sono Reparador</h3>
+            <p>O relaxamento progressivo e as técnicas de pranayamas desaceleram o fluxo de pensamentos para noites de
+              descanso ininterrupto.</p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon-box">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
+              </svg>
+            </div>
+            <h3>Clareza &amp; Presença</h3>
+            <p>Aprenda a focar a mente no presente através da âncora respiratória, aumentando sua produtividade e
+              serenidade diária.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. DEPOIMENTOS DE ALUNOS (PROVA SOCIAL)
+         ======================================================================= -->
+    <section id="depoimentos" class="section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Depoimentos</span>
+          <h2 class="section-title">O que Dizem Quem Pratica Comigo</h2>
+          <p class="section-desc">Histórias reais de quem transformou dores e ansiedade em leveza, força e presença.</p>
+        </header>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div>
+              <div class="testimonial-stars" aria-label="5 estrelas">
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">
+                "Cheguei até a Clara com uma crise severa de lombalgia e ansiedade. As sessões individuais de
+                Yogaterapia mudaram completamente meu dia a dia. Hoje vivo sem remédios para dor e durmo com
+                tranquilidade."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">MB</div>
+              <div class="author-info">
+                <span class="author-name">Mariana Bittencourt</span>
+                <span class="author-role">Aluna de Yogaterapia • 2 anos</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div>
+              <div class="testimonial-stars" aria-label="5 estrelas">
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">
+                "Eu achava que Yoga era só para pessoas extremamente flexíveis. A Clara tem uma didática tão paciente e
+                generosa que me fez sentir segura desde a primeira aula. As práticas de Vinyasa me deram uma energia
+                indescritível!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">RF</div>
+              <div class="author-info">
+                <span class="author-name">Rodrigo Ferraz</span>
+                <span class="author-role">Praticante de Vinyasa Flow • 1 ano</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div>
+              <div class="testimonial-stars" aria-label="5 estrelas">
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <svg viewBox="0 0 20 20">
+                  <path
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              </div>
+              <p class="testimonial-quote">
+                "A sessão de Sound Healing foi uma das experiências mais marcantes da minha vida. Senti uma descarga de
+                peso emocional acumulado de meses. Saí flutuando, com uma paz mental que não sentia há muito tempo."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">CL</div>
+              <div class="author-info">
+                <span class="author-name">Camila Linhares</span>
+                <span class="author-role">Sessões de Sound Healing • 6 meses</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. DÚVIDAS FREQUENTES (FAQ PURO HTML <details>)
+         ======================================================================= -->
+    <section id="faq" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">Tire Suas Dúvidas</span>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+          <p class="section-desc">Tudo o que você precisa saber antes de iniciar sua jornada nas práticas e tratamentos.
+          </p>
+        </header>
+
+        <div class="faq-container">
+          <details class="faq-item" open>
+            <summary class="faq-question">
+              <span>Eu nunca pratiquei Yoga e não sou flexível. Posso fazer?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              Sim, com certeza! Dizer que você não pode fazer Yoga porque não é flexível é como dizer que você está sujo
+              demais para tomar banho. O Yoga desenvolve a flexibilidade e a mobilidade de forma gradual e respeitosa.
+              Nossas aulas são adaptadas com blocos e cintos para que qualquer pessoa comece com total conforto.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Qual é a diferença entre uma aula de Yoga comum e a Yogaterapia?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              Enquanto uma aula tradicional trabalha o fortalecimento e a flexibilidade global do corpo de maneira
+              preventiva e integrativa, a Yogaterapia é uma consulta clínica individual. Nela, realizamos uma anamnese
+              detalhada para tratar dores específicas (hérnias de disco, tendinites, desvios na coluna, estresse agudo)
+              com posturas passivas e orientações de autocuidado.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Como funcionam as aulas online? São ao vivo ou gravadas?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              Todas as aulas e atendimentos online são realizados 100% ao vivo via vídeo de alta definição. Durante todo
+              o tempo, eu observo o seu alinhamento pela câmera e oriento os ajustes verbais em tempo real, garantindo a
+              mesma precisão, segurança e acolhimento de uma aula presencial.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>O que é preciso vestir ou levar para a primeira prática?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              Basta usar roupas confortáveis que permitam movimento livre (como calças de algodão, leggings, bermudas e
+              camisetas leves). Praticamos descalços. No estúdio presencial, todos os tapetinhos e apoios higienizados
+              estão disponíveis para você.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-question">
+              <span>Como funciona o Sound Healing? Há alguma contraindicação?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              O Sound Healing é um banho sonoro no qual você permanece deitado confortavelmente, coberto por uma manta
+              aconchegante, enquanto tigelas tibetanas e cristais de quartzo são tocados ao redor do seu corpo. É
+              extremamente seguro e não invasivo, sendo contraindicado apenas para portadores de marcapasso não blindado
+              ou primeiro trimestre gestacional sem liberação médica.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. FORMAS DE CONTATO, FORMULÁRIO & LOCALIZAÇÃO
+         ======================================================================= -->
+    <section id="contato" class="section">
+      <div class="container contact-grid">
+        <!-- Coluna da Esquerda: Contatos Diretos -->
+        <div class="contact-info">
+          <div class="contact-card-highlight">
+            <div class="contact-highlight-header">
+              <span class="live-indicator">
+                <span class="live-dot"></span>
+                <span>Atendimento Ativo</span>
+              </span>
+            </div>
+            <h3>Vamos conversar sobre o seu bem-estar?</h3>
+            <p>
+              Estou à disposição para entender o que você busca e recomendar a melhor prática ou tratamento para o seu
+              momento de vida.
+            </p>
+            <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Clara!%20Gostaria%20de%20conversar%20sobre%20as%20aulas%20de%20Yoga."
+              target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <svg class="btn-icon" viewBox="0 0 24 24">
+                <path
+                  d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.27-2.42 5.83a8.18 8.18 0 0 1-5.82 2.41c-1.47 0-2.91-.39-4.18-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.39c0-4.54 3.7-8.24 8.22-8.24zm4.5 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.29z" />
+              </svg>
+              <span>Conversar Diretamente no WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="contact-details-list">
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+              </div>
+              <div class="detail-text">
+                <span class="detail-label">Espaço de Prática Presencial</span>
+                <span class="detail-value">Espaço Serena • Jardins</span>
+                <span class="detail-sub">Rua Oscar Freire, 1420 - São Paulo, SP</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+              </div>
+              <div class="detail-text">
+                <span class="detail-label">E-mail Profissional</span>
+                <span class="detail-value">contato@claramendesyoga.com.br</span>
+                <span class="detail-sub">Retorno garantido em até 24 horas</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                </svg>
+              </div>
+              <div class="detail-text">
+                <span class="detail-label">Horários de Atendimento</span>
+                <span class="detail-value">Segunda a Sexta: 07:00 às 20:30</span>
+                <span class="detail-sub">Sábados: 08:30 às 13:00 (Imersões e Aulas Especiais)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna da Direita: Formulário de Mensagem Puro HTML/CSS -->
+        <div class="contact-form-wrapper">
+          <h3 class="form-title">Envie uma Mensagem</h3>
+          <p class="form-subtitle">Preencha os campos abaixo para solicitar informações ou agendamento:</p>
+
+          <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="nome" class="form-label">Nome Completo *</label>
+              <input type="text" id="nome" name="nome" class="form-input" placeholder="Ex: Ana Paula Ribeiro" required>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="whatsapp" class="form-label">WhatsApp com DDD *</label>
+                <input type="tel" id="whatsapp" name="whatsapp" class="form-input" placeholder="(11) 98888-7777"
+                  required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">E-mail *</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="interesse" class="form-label">Modalidade de Interesse</label>
+              <select id="interesse" name="interesse" class="form-select">
+                <option value="vinyasa">Hatha &amp; Vinyasa Flow (Grupo ou Individual)</option>
+                <option value="yogaterapia">Yogaterapia &amp; Alinhamento Postural</option>
+                <option value="sound-healing">Sound Healing &amp; Banho Sonoro</option>
+                <option value="online">Aulas 100% Online ao Vivo</option>
+                <option value="outro">Outras dúvidas ou parcerias</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem" class="form-label">Conte um pouco sobre você e seus objetivos</label>
+              <textarea id="mensagem" name="mensagem" class="form-textarea"
+                placeholder="Você sente dores, quer aliviar a ansiedade ou já tem alguma prática prévia?"></textarea>
+            </div>
+
+            <div class="form-consent">
+              <input type="checkbox" id="consentimento" name="consentimento" required>
+              <label for="consentimento">Concordo em receber o contato da instrutora para esclarecimento de dúvidas e
+                agendamento.</label>
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              Enviar Solicitação de Contato
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       9. RODAPÉ (FOOTER)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo-link footer-logo">
+          <span class="logo-main">Clara Mendes</span>
+          <span class="logo-sub">Yoga &amp; Bem-Estar</span>
+        </a>
+        <p class="footer-desc">
+          Um refúgio de autocuidado, serenidade e equilíbrio integral. Conectando pessoas à sua sabedoria interior
+          através do movimento e do som.
+        </p>
+        <div class="footer-socials">
+          <!-- Instagram -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="Instagram da Clara Mendes">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.79-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+          </a>
+          <!-- YouTube -->
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="Canal no YouTube da Clara Mendes">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+            </svg>
+          </a>
+          <!-- Spotify -->
+          <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="Playlists de Yoga e Relaxamento no Spotify">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.495 17.306c-.215.352-.676.464-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.801-.16-.893-.562-.092-.403.16-.802.562-.894 4.571-1.045 8.492-.595 11.652 1.336.353.216.464.676.249 1.028zm1.465-3.267c-.27.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.023-.129-1.173-.623-.15-.494.129-1.023.623-1.173 4.357-1.322 9.776-.682 13.487 1.599.44.27.578.847.308 1.288zm.126-3.414c-3.868-2.296-10.248-2.508-13.941-1.387-.593.18-1.22-.162-1.4-.755-.18-.593.162-1.22.755-1.4 4.246-1.289 11.288-1.044 15.736 1.596.533.316.708 1.011.392 1.544-.316.533-1.011.708-1.542.402z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Navegação</h4>
+        <ul class="footer-links">
+          <li><a href="#inicio" class="footer-link">Início</a></li>
+          <li><a href="#sobre" class="footer-link">Sobre Mim</a></li>
+          <li><a href="#tratamentos" class="footer-link">Tratamentos</a></li>
+          <li><a href="#beneficios" class="footer-link">Benefícios</a></li>
+          <li><a href="#depoimentos" class="footer-link">Depoimentos</a></li>
+          <li><a href="#contato" class="footer-link">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Práticas &amp; Terapias</h4>
+        <ul class="footer-links">
+          <li><a href="#tratamentos" class="footer-link">Hatha &amp; Vinyasa Flow</a></li>
+          <li><a href="#tratamentos" class="footer-link">Yogaterapia Postural</a></li>
+          <li><a href="#tratamentos" class="footer-link">Sound Healing Ancestral</a></li>
+          <li><a href="#tratamentos" class="footer-link">Pranayamas &amp; Respiração</a></li>
+          <li><a href="#tratamentos" class="footer-link">Atendimento Online</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-col-title">Atendimento</h4>
+        <p class="footer-desc" style="margin-bottom: 12px;">
+          <strong>Studio Espaço Serena</strong><br>
+          Rua Oscar Freire, 1420 - Jardins<br>
+          São Paulo - SP
+        </p>
+        <p class="footer-desc">
+          <strong>WhatsApp:</strong> (11) 99999-8888<br>
+          <strong>E-mail:</strong> contato@claramendesyoga.com.br
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>
+        &copy; 2026 Clara Mendes • Todos os direitos reservados.
+      </div>
+      <div class="namaste-tag">
+        <span>🙏 Namastê • Cultivando Paz e Presença</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       10. BOTÃO FLUTUANTE DE WHATSAPP (PURO CSS)
+       ========================================================================= -->
+  <a href="https://wa.me/5511999998888?text=Ol%C3%A1%20Clara!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20as%20aulas%20e%20tratamentos%20de%20Yoga."
+    target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Abrir conversa no WhatsApp">
+    <div class="whatsapp-pulse">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.27-2.42 5.83a8.18 8.18 0 0 1-5.82 2.41c-1.47 0-2.91-.39-4.18-1.15l-.3-.18-3.11.82.83-3.03-.2-.31a8.2 8.2 0 0 1-1.26-4.39c0-4.54 3.7-8.24 8.22-8.24zm4.5 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.29z" />
+      </svg>
+    </div>
+    <div class="floating-whatsapp-text">
+      <span class="floating-whatsapp-title">Agende no WhatsApp</span>
+      <span class="floating-whatsapp-sub">Atendimento Direto</span>
+    </div>
+  </a>
+
+</body>
+
+</html>
